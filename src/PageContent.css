@@ -1,0 +1,16 @@
+.pageContent {
+    width: 50vw;
+    margin: auto;
+}
+
+.itemContainer {
+    border-radius: 4px;
+    background-color: #999999;
+    color: #ffffff;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

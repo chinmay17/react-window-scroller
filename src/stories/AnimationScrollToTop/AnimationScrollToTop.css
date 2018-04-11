@@ -1,0 +1,39 @@
+.scrollToTopAnimation-enter {
+    transform: scale(0.01);
+}
+
+.scrollToTopAnimation-enter-active {
+    transform: scale(1);
+    transition: all 200ms ease-in;
+}
+
+.scrollToTopAnimation-exit {
+    transform: scale(1);
+}
+
+.scrollToTopAnimation-exit-active {
+    transform: scale(0.01);
+    transition: all 200ms ease-out;
+}
+
+.scrollBubbleC {
+    height: 42px;
+    width: 42px;
+    right: 24px;
+    bottom: 24px;
+    position: fixed;
+    border-radius: 50%;
+    background-color: #efeff8;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.scrollIconC {
+    height: 16px;
+    width: 16px;
+    transform: rotate(180deg);
+    fill: #9b9ba5;
+}
