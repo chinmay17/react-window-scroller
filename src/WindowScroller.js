@@ -13,7 +13,7 @@ function getWindowScrollHeight() {
   return docEl.scrollHeight - docEl.clientHeight;
 }
 
-class WindowScroller extends React.PureComponent {
+class WindowScroller extends React.Component {
 
   state = {
     showScrollToTop: false,
@@ -102,8 +102,8 @@ WindowScroller.propTypes = {
 
   supportScrollToTop: PropTypes.bool,
   supportScrollToBottom: PropTypes.bool,
-  scrollThreshold: PropTypes.number,
   scrollBehaviour: PropTypes.oneOf(['smooth', 'instant', 'auto']),
+  scrollThreshold: PropTypes.number,
   throttleDuration: PropTypes.number,
 };
 WindowScroller.defaultProps = {
