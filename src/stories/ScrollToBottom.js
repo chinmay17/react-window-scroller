@@ -5,6 +5,7 @@ import App from '../App';
 function ScrollToBottom(props) {
   return (
     <App
+      description="Scroll down"
       scrollBehaviour={props.scrollBehaviour}
       supportScrollToBottom
       renderScrollToBottom={onClick => <button className="scrollTo scrollToBottom" onClick={onClick}>Scroll To Bottom</button>}

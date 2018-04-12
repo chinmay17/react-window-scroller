@@ -15,8 +15,8 @@ storiesOf('Simple', module)
   .add('Both', () => <BothApp scrollBehaviour="instant"/>);
 
 storiesOf('Smooth', module)
-  .add('Scroll To Top', () => <SimpleScrollToTopApp scrollBehaviour="smooth"/>)
   .add('Scroll To Bottom', () => <ScrollToBottomApp scrollBehaviour="smooth"/>)
+  .add('Scroll To Top', () => <SimpleScrollToTopApp scrollBehaviour="smooth"/>)
   .add('Both', () => <BothApp scrollBehaviour="smooth"/>);
 
 storiesOf('Animation', module)
