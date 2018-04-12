@@ -20,7 +20,16 @@ class App extends Component {
           supportScrollToTop
         >
           {({ showScrollToTop, showScrollToBottom, onScrollToTopClick, onScrollToBottomClick }) => (
-              showScrollToTop && <button style={{position: 'fixed', right: '20px', bottom: '20px' }} onClick={onScrollToTopClick}>Scroll To Top</button>
+              showScrollToTop && <button
+              style={{
+              position: 'fixed',
+              right: '20px',
+              bottom: '20px',
+               }}
+              onClick={onScrollToTopClick}
+              >
+              Scroll To Top
+              </button>
           )}
         </WindowScroller>
       </div>
